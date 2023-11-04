@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# ASCII Art and Authorship
+echo "__________                  __  ___________        ___________"
+echo "\\______   \\  ____    ____ _/  |_\\_   _____/___  ___\\_   _____/"
+echo " |       _/ /  _ \\  /  _ \\   __\\|    __)_ \\  \\/  / |    __)_ "
+echo " |    |   \\(  <_> )(  <_> )|  |  |        \\ >    <  |        \\"
+echo " |____|_  / \\____/  \\____/ |__| /_______  //__/\\_ \\/_______  /"
+echo "        \\/                              \\/       \\/        \\/"
+echo ""
+echo "# Author: Ross Brereton (https://www.linkedin.com/in/ross-b-673872107/)"
+echo "# Website: https://github.com/msf-Root-ExE"
+echo ""
+
 declare -A replacements=( ["a"]="@" ["e"]="3" ["o"]="0" ["i"]="!" ["s"]="5" ["t"]="$" ["g"]="9" ["z"]="2" 
                           ["A"]="@" ["E"]="3" ["O"]="0" ["I"]="!" ["S"]="5" ["T"]="$" ["G"]="9" ["Z"]="2" )
 
